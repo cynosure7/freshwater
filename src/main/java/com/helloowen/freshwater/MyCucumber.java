@@ -21,7 +21,7 @@ import org.springframework.context.annotation.Configuration;
 
 public class MyCucumber {
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
 
         final JUnitCore core = new JUnitCore();
         core.addListener(new TextListener(System.out));
